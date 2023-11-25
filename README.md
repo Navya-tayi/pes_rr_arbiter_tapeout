@@ -13,9 +13,12 @@ Refer to [README](docs/source/index.rst) for this sample project documentation.
 
 Refer to the following [readthedocs](https://caravel-sim-infrastructure.readthedocs.io/en/latest/index.html) for how to add cocotb tests to your project. 
 
+
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter_tapeout/assets/79205242/bb9ec8a7-97d3-4930-9b89-358659e674fa)
 
+
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter_tapeout/assets/79205242/3c034bcd-a136-421a-8189-7afbcc9d5bd8)
+
 
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter_tapeout/assets/79205242/8731ee66-263a-46b4-92aa-f1a97704564b)
 
