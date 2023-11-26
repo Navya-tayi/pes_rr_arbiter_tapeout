@@ -179,6 +179,7 @@ It may throw this error after you type your password, if you have cloned the rep
 
 Password is no longer being used to authenticate so go to these links:
 https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls
+
 https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
 
 ANd follow the steps to create and use a token instead for authentication.
