@@ -141,9 +141,51 @@ __Zooming in to the design:__
 __Now it is ready for tapeout__
 
 
+Next, we will push everything into the git hub template that we created:
 
+type:
+```
+git status
+```
+![image](https://github.com/Navya-tayi/pes_rr_arbiter_tapeout/assets/79205242/2d0b9127-ad90-4404-ae5f-84b5ecd2f7e4)
 
+We need to push these untracked files:
 
+```
+git add def/pes_rr_arbiter.def gds/pes_rr_arbiter.gds lef/pes_rr_arbiter.lef lib/pes_rr_arbiter.lib mag/pes_rr_arbiter.mag maglef/pes_rr_arbiter.mag openlane/pes_rr_arbiter/ sdc/pes_rr_arbiter.sdc sdf/ signoff/pes_rr_arbiter/ spef/multicorner/pes_rr_arbiter.max.spef spef/multicorner/pes_rr_arbiter.min.spef spef/multicorner/pes_rr_arbiter.nom.spef spef/pes_rr_arbiter.spef spi/lvs/pes_rr_arbiter.spice venv-cocotb/ verilog/gl/pes_rr_arbiter.nl.v verilog/gl/pes_rr_arbiter.v verilog/gl/user_proj_example.nl.v verilog/rtl/pes_rr_arbiter.v
+```
+```
+git commit -m 'hardened pes_rr_arbiter'
 
+```
+![image](https://github.com/Navya-tayi/pes_rr_arbiter_tapeout/assets/79205242/167e22aa-7fb5-470f-90bd-8fd46ee9b217)
 
+If it throws the above error then type this with your email id (of your github) in the quotes.
 
+```
+git config user.email "tayinavya@gmail.com"
+```
+
+Now repeat the commit command
+
+After it is completed do
+
+```
+git push
+```
+It may throw this error after you type your password, if you have cloned the repo initially using https inetad of ssh
+
+![image](https://github.com/Navya-tayi/pes_rr_arbiter_tapeout/assets/79205242/8940aa62-69f8-4faf-adbb-7fe630070636)
+
+Password is no longer being used to authenticate so go to these links:
+https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls
+https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
+
+ANd follow the steps to create and use a token instead for authentication.
+
+Now again do git pull, a vim page may open, press exit
+Now do git push again
+
+![image](https://github.com/Navya-tayi/pes_rr_arbiter_tapeout/assets/79205242/a0b9542b-3732-4d42-934f-86daf0e31ce1)
+
+## The github template has been updated with your custom files!
