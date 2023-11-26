@@ -61,7 +61,7 @@ zooming into the MACROS:
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter_tapeout/assets/79205242/88efda95-b533-46b2-936e-e8bbb5081880)
 
 
-# Implementing the same for our custom projects:
+# Implementing the same for our custom project:
 
 __Some changes need to be made in the user_project_wrapper.v file__
 
