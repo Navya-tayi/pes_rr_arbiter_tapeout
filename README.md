@@ -135,7 +135,7 @@ __Zooming in to the design:__
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter_tapeout/assets/79205242/5e6d27ae-8613-47fc-898b-a59fd0538b39)
 
 
-
+Now it is ready for tapeout.
 
 
 
