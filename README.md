@@ -50,7 +50,7 @@ __Sample project flow complete:__
 
 Looking at the GDS:
 
-First install klayout
+__First install klayout__
 
 ```
 sudo apt install klayout
