@@ -1,4 +1,4 @@
-# Caravel User Project
+# Caravel User Project - Customised to Round Robin Arbiter
 References used:
 
 https://github.com/Vishnu1426/pes_ram_design_tapeout
