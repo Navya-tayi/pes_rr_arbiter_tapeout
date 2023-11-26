@@ -5,8 +5,17 @@ https://github.com/Vishnu1426/pes_ram_design_tapeout
 
 https://www.youtube.com/watch?v=MNuoYz_MM-c
 
+* Go to this repository:
+
+https://github.com/efabless/caravel_user_project
+
+* Click on use this template & create a repo with a custom name
+* Now in your ubuntu temrinal enable root acces using : sudo su
+* First clone your custom repo (that you have just created using the template)
+
 ```
 git clone https://github.com/Navya-tayi/pes_rr_arbiter_tapeout
+
 ```
 
 
@@ -17,20 +26,22 @@ git clone https://github.com/Navya-tayi/pes_rr_arbiter_tapeout
 
 After this do:
 
-``` make setup```
+``` 
+make setup
+```
 
 make setup is done:
 
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter_tapeout/assets/79205242/1f7b86d1-7de8-462a-959f-20d86b5bd024)
 
-To check if it is working or to rectify errors:
+__To check if it is working or to rectify errors:__
 
-run the sample project
+Run the sample project
 
 ```make user_proj_example```
 
 
-Flow complete:
+__Sample project flow complete:__
 
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter_tapeout/assets/79205242/357883ba-d2f8-4b76-824c-5a5e2a7aa975)
 
@@ -48,6 +59,7 @@ layout with the fill and decoupling capacitor cells turned off:
 zooming into the MACROS:
 
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter_tapeout/assets/79205242/88efda95-b533-46b2-936e-e8bbb5081880)
+
 
 # Implementing the same for our custom projects:
 
