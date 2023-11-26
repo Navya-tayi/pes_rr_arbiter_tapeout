@@ -38,7 +38,9 @@ __To check if it is working or to rectify errors:__
 
 Run the sample project
 
-```make user_proj_example```
+```
+make user_proj_example
+```
 
 
 __Sample project flow complete:__
@@ -50,7 +52,9 @@ Looking at the GDS:
 
 First install klayout
 
-```sudo apt install klayout```
+```
+sudo apt install klayout
+```
 
 layout with the fill and decoupling capacitor cells turned off:
 
