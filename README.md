@@ -34,9 +34,10 @@ make setup is done:
 
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter_tapeout/assets/79205242/1f7b86d1-7de8-462a-959f-20d86b5bd024)
 
-__To check if it is working or to rectify errors:__
 
-Run the sample project
+# Run the example project
+
+This will help to check if the flow is working or to rectify errors:
 
 ```
 make user_proj_example
