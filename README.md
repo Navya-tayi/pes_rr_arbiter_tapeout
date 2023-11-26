@@ -5,8 +5,9 @@ https://github.com/Vishnu1426/pes_ram_design_tapeout
 
 https://www.youtube.com/watch?v=MNuoYz_MM-c
 
-
-![image](https://github.com/Navya-tayi/pes_rr_arbiter_tapeout/assets/79205242/bb9ec8a7-97d3-4930-9b89-358659e674fa)
+```
+git clone https://github.com/Navya-tayi/pes_rr_arbiter_tapeout
+```
 
 
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter_tapeout/assets/79205242/3c034bcd-a136-421a-8189-7afbcc9d5bd8)
@@ -48,30 +49,76 @@ zooming into the MACROS:
 
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter_tapeout/assets/79205242/88efda95-b533-46b2-936e-e8bbb5081880)
 
-Implementing the same for our custom projects:
+# Implementing the same for our custom projects:
+
+__Some changes need to be made in the user_project_wrapper.v file__
+
+```
+cd verilog/rtl
+cp /home/navya/asic_project/pes_rr_arbiter.v .
+gedit user_project_wrapper.v
+
+```
+modified user_project_wrapper file:
+
+* Put the respective output name pin that you have used in your design.
+* Change the instantiation module name to your custom name
+
+![image](https://github.com/Navya-tayi/pes_rr_arbiter_tapeout/assets/79205242/f4f29175-40eb-4e98-a87e-ae63e215b8c5)
+
+The design file also needs to be modified:
+Power pins need to be added and io_oeb pins also should be added: 
+(oeb stands for output enable bar), make it 0.
+
+After modification of design file:
+
+![image](https://github.com/Navya-tayi/pes_rr_arbiter_tapeout/assets/79205242/9e574f6b-e2eb-42f4-ae3b-0ca5f8b159fe)
+
+
+__The pin_order.cfg file also needs to be modified:__
+
+![image](https://github.com/Navya-tayi/pes_rr_arbiter_tapeout/assets/79205242/3ed28452-4866-4202-95f0-c0ae54bce774)
+
+![image](https://github.com/Navya-tayi/pes_rr_arbiter_tapeout/assets/79205242/1a4b4959-7c19-4a4d-8173-5125db7fb9d7)
+
+
+__The clockport name, design name and the verilog design file name also needs to be modified in config.json file:__
+
+![image](https://github.com/Navya-tayi/pes_rr_arbiter_tapeout/assets/79205242/9e621795-bfe1-4544-870f-58c37d4041a5)
+
+modified file:
+If required also change the DIE_AREA
+
+![image](https://github.com/Navya-tayi/pes_rr_arbiter_tapeout/assets/79205242/178fb538-d66a-4998-a95b-ccfa844f0fad)
+
 
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter_tapeout/assets/79205242/2e86c03a-3fa9-4024-844b-99d488d8e666)
 
-```
-```
+__After completing all this editing__
 
+In the same terminal where the dependencies were modified initially
+
+```
+time make pes_rr_arbiter
+
+```
+![image](https://github.com/Navya-tayi/pes_rr_arbiter_tapeout/assets/79205242/a3a2a35d-7e09-4b11-8dee-47299f83deb1)
+
+
+
+__Flow complete:__
 
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter_tapeout/assets/79205242/a9e1c909-96e4-4244-bb2d-01d5fd658c37)
 
 
 
 
-
-
-![image](https://github.com/Navya-tayi/pes_rr_arbiter_tapeout/assets/79205242/02ac700e-d777-4d11-b65c-779fc556987f)
-
-
-Final GDS layout:
+__Final GDS layout:__
 
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter_tapeout/assets/79205242/d88cfc51-b232-4623-8bc6-8329b79a08bf)
 
 
-zooming in to the design:
+__Zooming in to the design:__
 
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter_tapeout/assets/79205242/5e6d27ae-8613-47fc-898b-a59fd0538b39)
 
