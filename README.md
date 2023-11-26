@@ -108,8 +108,6 @@ If required also change the DIE_AREA
 ![image](https://github.com/Navya-tayi/pes_rr_arbiter_tapeout/assets/79205242/178fb538-d66a-4998-a95b-ccfa844f0fad)
 
 
-![image](https://github.com/Navya-tayi/pes_rr_arbiter_tapeout/assets/79205242/2e86c03a-3fa9-4024-844b-99d488d8e666)
-
 __After completing all this editing__
 
 In the same terminal where the dependencies were modified initially
